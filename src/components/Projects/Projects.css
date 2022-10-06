@@ -1,0 +1,47 @@
+.projects{
+    width: 100%;
+    max-width: 1200px;
+    margin: 25px auto;
+    padding: 20px;
+}
+.projects-head{
+    text-align: center;
+}
+.projects-head h2{
+    margin-bottom: 10px;
+}
+.projects-head p{
+    margin-bottom: 5px;
+}
+.tag-buttons{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tag-buttons .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.tag-buttons .buttons .tag{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.tag-buttons .buttons .tag:hover{
+    opacity: 0.7;
+}
+.projects-display{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}

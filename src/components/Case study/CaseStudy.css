@@ -1,0 +1,56 @@
+.not-case {
+    flex: 48%;
+}
+.case {
+    margin-top: 25px;
+}
+.case-study-image img {
+    width: 100%;
+    border-radius: 10px;
+    height: 300px;
+}
+.case-study-text{
+    margin-top: 10px;
+}
+.title{
+    margin-bottom: 10px;
+    color: #ffffff99;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+.header{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.desc{
+    font-size: 14px;
+    line-height: 20px;
+}
+.author{
+    margin-top: 10px;
+    color: #ffffff99;
+    font-style: italic;
+    font-size: 13px;
+}
+@media screen and (min-width: 700px) {
+    .display img{
+        height: 500px;
+    }
+    .title{
+        font-size: 17px;
+    }
+    .author{
+        font-size: 15px;
+    }
+    .desc{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .header{
+        font-size: 22px;
+    }
+}

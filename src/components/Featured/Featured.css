@@ -1,0 +1,9 @@
+.featured{
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 20px auto 0 auto;
+}
+.featured h2{
+    text-align: center;
+}

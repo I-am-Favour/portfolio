@@ -1,0 +1,49 @@
+.home-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+.bg-video video{
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+}
+.bg-header{
+    background-color: rgba(85, 85, 85, 0.7);
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.home-header .header{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.home-header .header-image img{
+    border-radius: 50%;
+    width: 67%;
+    border: 25px solid #333;
+    margin: 0;
+}
+.home-header .header-text{
+    margin-top: 20px
+}
+.home-header .header-text h1{
+    margin: 7px;
+}
+.home-header .header-text p{
+    line-height: 22px;
+    font-weight: bold;
+}
+@media screen and (min-width: 700px) {
+    
+}
