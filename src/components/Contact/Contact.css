@@ -66,4 +66,5 @@
     font-size: 14px;
     text-transform: capitalize;
     transform: translateX(-50%);
+    cursor: pointer;
 }
